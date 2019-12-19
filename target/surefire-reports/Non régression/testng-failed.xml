@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Non régression]">
+  <test thread-count="1" verbose="0" name="Suite de tests(failed)">
+    <classes>
+      <class name="acial.selenium.exercices.TestA">
+        <methods>
+          <include name="setUpTestA"/>
+          <include name="tearDownTestA"/>
+          <include name="tearDownClassA"/>
+          <include name="test_A_1"/>
+          <include name="setUpClassA"/>
+        </methods>
+      </class> <!-- acial.selenium.exercices.TestA -->
+    </classes>
+  </test> <!-- Suite de tests(failed) -->
+</suite> <!-- Failed suite [Non régression] -->
